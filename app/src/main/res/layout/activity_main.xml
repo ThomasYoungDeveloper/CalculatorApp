@@ -12,10 +12,12 @@
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:backgroundTint="@color/buttonColors"
-            android:padding="42dp"
+            android:padding="10dp"
             android:background="#EFEFEF"
             android:textSize="48sp"
             android:maxLength="12"
+            android:gravity="right|bottom|center_vertical"
+            android:text="0"
             />
 
 
@@ -127,7 +129,7 @@
             android:layout_margin="5dp"
             android:backgroundTint="@color/buttonColors"
             android:padding="42dp"
-            android:text="x"
+            android:text="*"
             android:layout_weight="1"
             android:onClick="onOperator"/>
 
@@ -269,7 +271,7 @@
             android:padding="42dp"
             android:text="="
             android:layout_weight="1"
-            android:onClick="onDigit"/>
+            android:onClick="onEqual"/>
 
 
 
